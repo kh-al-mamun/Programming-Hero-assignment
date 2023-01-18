@@ -36,6 +36,9 @@ a {
     position: relative;
     transition: .9s;
 }
+.card-container:hover .img {
+    transform: scale(1.2)
+}
 
 .img {
     width: 100px;
@@ -46,11 +49,12 @@ a {
     overflow: hidden;
     top: -22%;
     left: 7%;
+    transition: .3s;
 
 }
 
 .card-container:hover{
     background-color: rgba(128, 255, 0, 0.745);
-    transition: .3s;
+    transform: scale(1.2)
 
 }
