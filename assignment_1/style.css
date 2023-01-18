@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    margin-left: 230px;
+    margin-right: 230px;
+}
+
+.btn-primary {
+    width: 170px;
+    height: 64px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: #F37748;
+}
+
+
+.btn-secondary {
+    width: 170px;
+    height: 64px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F37748;
+    background-color: white;
+}
+
+.mb-130 {
+    margin-bottom: 130px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+/* Header Starts Here */
+header {
+    background: url('resource/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 809px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding-top: 5px;
+
+}
+
+nav .logo {
+    display: block;
+    color: #444343;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #444343;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+nav .logo:hover {
+    color: black;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: line-through;
+}
+
+.banner-main {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    border-top: 1px solid;
+    height: 500px;
+
+}
+
+.banner {
+    text-align: right;
+}
+
+/* Header ends Here */
+
+/* Failure Section Starts Here */
+
+.bx-check {
+    color: green;
+
+}
+
+.failure {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.check-message {
+    margin-bottom: 10px;
+}
+
+/* Failure Section ends Here */
+
+
+/* skills Section starts here */
+
+.plan-head {
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    text-align: center;
+
+}
+
+card p {
+    font-weight: 500;
+}
+
+section h3 {
+    margin: 16px 0;
+
+}
+
+section p {
+    color: #737272;
+}
+
+/* skills Section ends here */
+
+/* mindset Section starts here */
+
+.mindset {
+    height: 301px;
+    background-image: url('resource/watch.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.watch-background {
+
+    height: 301px;
+    background-image: url('resource/gradient2.png');
+    opacity: .9;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+/* mindset Section ends here  */
+
+/* footer starts here */
+
+footer {
+    background-color: #151414;
+    height: 577px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+footer h2 {
+    color: white;
+}
+
+footer h4 {
+    color: white;
+}
+
+footer p {
+    color: white;
+}
+
+footer input {
+    width: 325px;
+    height: 64px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    padding-left: 10px;
+}
+
+footer img {
+    margin-right: 17px;
+}
+
+/* footer ends here */

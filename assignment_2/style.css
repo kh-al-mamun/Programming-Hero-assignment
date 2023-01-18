@@ -1,0 +1,247 @@
+/* utility section starts */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.container{
+    max-width: 1360px;
+    margin: 51px auto;
+
+}
+
+h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313; /* Dark 01 */
+}
+h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313; /* Dark 01 */
+    margin-bottom: 10px;
+}
+h4{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272; /* Dark 03 */
+}
+button{
+    background-color: #FF900E;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 24px;
+    border: none;
+    border-radius: 10px;
+}
+.text-center{
+    text-align: center;
+}
+p{
+    line-height: 26px;
+    color: #727272; /* Dark 03 */
+}
+/* utility section ends */
+
+
+/* header section starts */
+
+header{
+    background-color: #FFF4E7;
+    
+    padding: 51px 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #424242; /* Dark 02 */
+}
+
+.brand-name{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313; /* Dark 01 */
+}
+
+.brand-description{
+    margin: 32px 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* header section ends */
+
+/* quick list section starts */
+
+.quick-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quick-list-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+.quick-list-para{
+    max-width: 537px;
+    padding: 32px 0;
+    color: #727272; /* Dark 03 */
+}
+
+/* quick list section ends */
+
+/* feature section starts */
+.features-wrapper{
+    display: flex;
+    gap: 54px;
+}
+.features-heading{
+    border-left:10px solid #FF900E;
+    padding-left: 26px;
+}
+.feature-para > div{
+    padding: 30px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.big-btn{
+    position: relative;
+    margin-bottom: 130px;
+}
+.big-btn  button{
+    font-weight: 700px;
+    padding: 40px;
+    position: absolute;
+    left: 47%;
+    margin-top: -17%;
+}
+.big-btn-text{
+    font-size: 65px;
+}
+
+/* feature section ends */
+
+/* facts section starts */
+
+.facts-card-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.features-wrapper > div{
+    flex: 1;
+}
+.facts-description{
+    margin: 24px 0 100px 0;
+}
+
+.facts-card{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 36px;
+    text-align: center;
+    transition: transform .3s;
+    
+}
+
+.facts-card:hover{
+    transform: scale(1.2);
+    background-color: #FF900E;
+
+}
+
+.facts-card > h2{
+    margin: 10px 0;
+}
+.facts-card img{
+    display: block;
+    max-width: 38px;
+    margin: 0 auto;
+}
+/* facts section ends */
+
+/* sponsors section starts */
+.sponsor-description{
+    margin: 24px auto 50px;
+    max-width: 500px;
+}
+
+.sponsors-img-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponsors-img-wrapper img{
+    display: block;
+    max-width: 150px;
+    margin: 0 auto;
+
+}
+/* sponsors section ends */
+
+/* contact us section (EXTRA SECTION) starts */
+
+.form > *{
+    margin: 10px 0;
+    border: 0;
+    background-color: #FF900E;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #131313; /* Dark 01 */
+    outline: none;
+    font-weight: 500;
+    font-size: 20px;
+    width: 100%;
+    transition: transform .3s;
+
+}
+
+.form > *:hover{
+    transform: scale(1.2);
+    background-color: #FF900E;
+
+}
+.form > *:focus {
+    background-color: #ff8f0e99;
+    transform: scale(1.2);
+}
+
+
+.form{
+    max-width: 410px;
+    margin: 0 auto;
+}
+/* contact us section (EXTRA SECTION) ends */
+
+/* footer section starts */
+
+footer{
+    background-color: #FFF4E7;
+    font-size: 20px;
+    text-align: center;
+    padding: 38px 0;
+    border-radius: 10px;
+    
+}
+
+/* footer section ends */
