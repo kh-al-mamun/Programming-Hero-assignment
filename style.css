@@ -11,8 +11,6 @@ body {
 
 a {
     text-decoration: none;
-    /* margin-top: 150px;
-    margin-left: 100px; */
     display: block;
 }
 
@@ -22,7 +20,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 100px;
 
 }
 
