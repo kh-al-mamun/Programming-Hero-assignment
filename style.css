@@ -35,6 +35,7 @@ a {
     justify-content: center;
     position: relative;
     transition: .9s;
+    text-align: center;
 }
 .card-container:hover .img {
     transform: scale(1.3)
