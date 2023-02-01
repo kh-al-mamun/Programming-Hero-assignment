@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 3</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css"> <!-- bootstrap -->
+  
+  <script src="https://kit.fontawesome.com/82dcc4e40f.js" crossorigin="anonymous"></script>  <!-- fontawsome -->
+  
+</head>
+
+<body>
+
+  <header>
+    <!-- Navigation section starts -->
+    <nav class="navbar container-xl navbar-expand-lg mb-4">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center gap-3" href="#">
+          <img src="images/logo2.png" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarText">
+
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cases ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us ></a>
+            </li>
+          </ul>
+
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Free Consulation
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">About Law</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Law is a system of rules and regulations that are put in place to govern and regulate the behavior of
+                  individuals and organizations within a society. It serves as a framework for the functioning of
+                  society, ensuring that everyone is treated fairly and that conflicts are resolved in a peaceful and
+                  orderly manner. <br>
+
+                  There are two main types of law: criminal law and civil law. Criminal law deals with cases where an
+                  individual is accused of committing a crime, such as murder or theft. Civil law, on the other hand,
+                  deals with disputes between individuals or organizations, such as contract disputes or personal injury
+                  cases. <br>
+
+                  The legal system in the United States is divided into federal and state levels. Federal law applies to
+                  the entire country and is created by the United States Congress, while state law applies only to the
+                  specific state and is created by the state legislature. <br>
+
+                  The process of creating and enforcing laws is a complex one. Laws are first proposed by elected
+                  representatives, such as members of Congress or state legislators. These proposals are then debated
+                  and, if passed, become laws. Once a law is in place, it is enforced by law enforcement agencies, such
+                  as the police and FBI. If an individual or organization breaks a law, they may be charged with a crime
+                  and go through a criminal trial. If found guilty, they may face punishment such as fines,
+                  imprisonment, or both. <br>
+
+                  The legal system also includes a system of courts and judges. These individuals are responsible for
+                  interpreting the law and making decisions in legal cases. The highest court in the United States is
+                  the Supreme Court, which is made up of nine justices who are appointed by the President and confirmed
+                  by the Senate. <br>
+
+                  One of the most important principles of the legal system is the concept of due process. This means
+                  that everyone has the right to a fair and impartial trial. This includes the right to a lawyer, the
+                  right to a fair and impartial jury, and the right to present evidence in one's defense.
+
+                  Another important principle of the legal system is the principle of equality under the law. This means
+                  that everyone is subject to the same laws and that no one is above the law. <br>
+
+                  The legal system plays a crucial role in maintaining order and protecting the rights of individuals
+                  within a society. It is a complex and constantly evolving system that requires the participation and
+                  cooperation of all members of society. <br>
+
+                  In conclusion, Law is an essential part of any society, serving as a framework to govern and regulate
+                  the behavior of individuals and organizations. It is divided into criminal and civil law, and is
+                  enforced by law enforcement agencies, courts, and judges. The principles of due process and equality
+                  under the law are crucial to the functioning of the legal system and ensure that everyone is treated
+                  fairly and that conflicts are resolved in a peaceful and orderly manner. <br>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </nav> <!-- Navigation section ends -->
+
+    <!-- Banner section starts -->
+    <section class="container-xl bg-opacity-50 rounded"
+      style="height: 55vh; background-image: url('images/banner.png'); background-size: cover; background-repeat: no-repeat; background-position: center;">
+      <div class="hero-wraper h-100 rounded row justify-content-center align-items-center"
+        style="background-color: rgba(0, 0, 0, 0.4);">
+        <div class="hero text-white text-center" style="max-width: 680px;">
+          <h1 class="display-3 fw-bolder">We Provide Effective Legal Solutions</h1>
+          <p class="my-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+            alteration in some form, by injected humour.</p>
+          <div class="d-flex gap-4">
+            <input class="form-control" type="text" placeholder="Search your service">
+            <button class="btn btn-success px-4 py-2">Search</button>
+          </div>
+        </div>
+      </div>
+    </section> <!-- Banner section ends -->
+  </header>
+
+ <main>
+   <!-- practice area starts -->
+   <section class="container-xl mt-6">
+    <h1 class=" fw-bolder text-center">The Legal Practice Area</h1>
+    <div>
+      <p class="text-center mx-auto p-4" style="max-width: 714px;">There are two main types of law: criminal law and
+        civil law. Criminal law deals with cases where an individual is accused of committing a crime, such as murder or
+        theft. Civil law, on the other hand,
+        deals with disputes between individuals or organizations, such as contract disputes or personal injury
+        cases.</p>
+    </div>
+    <div class="row text-center row-cols-md-3 row-cols-1 ">
+      <div class="card mx-auto p-5 border-0 border-bottom rounded-0">
+        <img src="images/business.png" class="card-img-top w-25 mx-auto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Business Law</h5>
+          <p class="card-text">There are two main types of law: criminal law and civil law. Criminal law deals with
+            cases where an individual is accused of committing a crime</p>
+          <i class="fa-solid fa-circle-arrow-right text-danger fs-3"></i>
+        </div>
+      </div>
+      <div class="card mx-auto p-5 rounded-0 gradientt">
+        <img src="images/criminal.png" class="card-img-top w-25 mx-auto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Criminal Law</h5>
+          <p class="card-text">There are two main types of law: criminal law and civil law. Criminal law deals with
+            cases where an individual is accused of committing a crime</p>
+          <i class="fa-solid fa-circle-arrow-right text-danger fs-3"></i>
+        </div>
+      </div>
+      <div class="card mx-auto p-5 border-0 border-bottom rounded-0">
+        <img src="images/child.png" class="card-img-top w-25 mx-auto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Child Support</h5>
+          <p class="card-text">There are two main types of law: criminal law and civil law. Criminal law deals with
+            cases where an individual is accused of committing a crime</p>
+          <i class="fa-solid fa-circle-arrow-right text-danger fs-3"></i>
+        </div>
+
+      </div>
+      <div class="card mx-auto p-5 border-0 border-right rounded-0">
+        <img src="images/business.png" class="card-img-top w-25 mx-auto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Business Law</h5>
+          <p class="card-text">There are two main types of law: criminal law and civil law. Criminal law deals with
+            cases where an individual is accused of committing a crime</p>
+          <i class="fa-solid fa-circle-arrow-right text-danger fs-3"></i>
+        </div>
+      </div>
+      <div class="card mx-auto p-5 rounded-0"
+        style="border-top: 0px solid !important; border-bottom: 0px solid !important;">
+        <img src="images/criminal.png" class="card-img-top w-25 mx-auto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Criminal Law</h5>
+          <p class="card-text">There are two main types of law: criminal law and civil law. Criminal law deals with
+            cases where an individual is accused of committing a crime</p>
+          <i class="fa-solid fa-circle-arrow-right text-danger fs-3"></i>
+        </div>
+      </div>
+      <div class="card mx-auto p-5 border-0 rounded-0">
+        <img src="images/business.png" class="card-img-top w-25 mx-auto" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Business Law</h5>
+          <p class="card-text">There are two main types of law: criminal law and civil law. Criminal law deals with
+            cases where an individual is accused of committing a crime</p>
+          <i class="fa-solid fa-circle-arrow-right text-danger fs-3"></i>
+        </div>
+      </div>
+    </div>
+  </section> <!-- practice area ends -->
+
+  <!-- Clients carousel section starts -->
+  <section class="container-xl text-center mt-6">
+    <h1 class="fw-bolder">What Our Client Say</h1>
+    <p class="mx-auto mt-3 mb-4 mb-md-5" style="max-width: 700px;">There are many variations of passages of Lorem Ipsum
+      available, but the majority have suffered alteration in some form, by injected humour.</p>
+
+    <!-- carousel here -->
+    <div id="carouselExampleIndicators" class="carousel slide bg-dark text-white">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active"
+          style="background-image: url('images/slider-1.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; min-height: 500px; padding: 2rem 3rem 0 2rem">
+          <img src="images/faq.png" class="d-block rounded-circle mx-auto" width="70px">
+          <div class="my-3">
+            <h3>Awlad Hossain</h3>
+            <p>UIX Designer</p>
+          </div>
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+            Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+            Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+        </div>
+        <div class="carousel-item"
+          style="background-image: url('images/slider-2.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; min-height: 500px; padding: 2rem 3rem 0 2rem">
+          <img src="images/faq.png" class="d-block rounded-circle mx-auto" width="70px">
+          <div class="my-3">
+            <h3>Tarik Parvej</h3>
+            <p>Web Developer</p>
+          </div>
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+            Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+            Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+        </div>
+        <div class="carousel-item "
+          style="background-image: url('images/slider-3.jpg'); background-size: cover; background-repeat: no-repeat; background-position: center; min-height: 500px; padding: 2rem 3rem 0 2rem">
+          <img src="images/faq.png" class="d-block rounded-circle mx-auto" width="70px">
+          <div class="my-3">
+            <h3>Mazed Rahman</h3>
+            <p>ALL Rounder</p>
+          </div>
+          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+            Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+            Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section> <!-- Clients carousel section ends -->
+
+  <!-- f & q section starts -->
+  <section class="container-xl mt-6">
+
+    <h1 class="fw-bolder text-center">Frequently Asked Any Questions</h1>
+    <div>
+      <p class="text-center mx-auto p-4" style="max-width: 714px;">IT was late in the evening when K. arrived, The
+        village was J. deep in snow. The Castle hill was hidden, veiled in mist and darkness, nor was there even a
+        glimmer of light to show that a castle was there.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item bg-dark-subtle mb-3 border-0">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button bg-dark-subtle" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                1. What is semantic tag ?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                HTML Semantic tags indicate what the content is rather than just how the browser displays them.By using
+                Semantic tags in our code, we can provide additional information about that document by defining the
+                layout and sections of the webpage.A semantic element clearly describes its meaning to both the browser
+                and the developer. Examples of non-semantic elements: &lt;div> and &lt;span> - Tells nothing about its
+                content. Examples of semantic elements: &lt;form> , &lt;table> , and &lt;article> - Clearly defines its
+                content.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-dark-subtle mb-3 border-0">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button bg-dark-subtle collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                2. What is the use of media query in css.
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Media queries in CSS allow you to apply styles based on the characteristics of the device or screen
+                displaying the webpage. This enables a responsive design, where the layout and styles of the webpage
+                adapt to the screen size and device type. Media queries use CSS selectors to target specific styles to
+                different screen sizes, resolutions, orientations, and other characteristics. This allows for a seamless
+                user experience across different devices, such as desktop computers, tablets, and smartphones. Media
+                queries are used to create a responsive design, where the layout and styles of the webpage adapt to the
+                screen size and device type.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-dark-subtle mb-3 border-0 rounded">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button bg-dark-subtle collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                3. What is css box model? How does it work?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                The CSS box model is a layout concept that describes how the dimensions of an HTML element are
+                calculated. It defines the space that an element takes up on a web page, and how that space is divided
+                between the element's content, padding, borders, and margins.
+
+                Each HTML element is considered a rectangular box, and the box model defines how the element's content,
+                padding, borders, and margins are calculated. The content area of the box is where the element's actual
+                content (like text, images, etc.) is displayed. Surrounding this content area, there's the padding,
+                which separates the content from the border. The border surrounds the padding and separates the element
+                from other elements on the page. Finally, the margin is the space outside the border that separates the
+                element from other elements.
+
+                When calculating the dimensions of an element, the browser starts with the content width and height, and
+                then adds the padding, border, and margin. The total size of an element is the sum of all of these
+                values. For example, if you set the width of an element to be 100px and add 10px of padding and a 2px
+                border, the total width of the element will be 124px.
+
+                It's important to note that the box-sizing property can change the way the box model works. By default,
+                the box-sizing is set to content-box, which means the box model calculates the width and height of an
+                element based on the content, padding, and border. But it can be changed to border-box, that means the
+                width and height properties include the content, padding, and border, not just the content.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-dark-subtle border-0">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button bg-dark-subtle collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                4. Difference between flexbox and grid.
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Flexbox and Grid are both CSS layout modules that are used to create flexible and responsive layouts.
+
+                Flexbox is primarily used for one-dimensional layout, and is best suited for items that are arranged in
+                a single row or column. It helps align items along a single axis and distribute space between them.
+                Flexbox is useful for creating things like navigation bars, and is generally easier to use for simple
+                layout tasks.
+
+                Grid, on the other hand, is a two-dimensional layout system that allows items to be arranged in rows and
+                columns. It is best suited for more complex layout tasks, such as creating a grid of items with varying
+                sizes and proportions. Grid provides more control over layout, and allows for more precise alignment of
+                items. It is also useful for creating responsive designs, as items can be easily rearranged based on
+                screen size.
+
+                In summary, Flexbox is useful for creating a one-dimensional layout, while Grid is useful for creating a
+                two-dimensional layout, with more control and precision. They can be used together to create a more
+                complex layout.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ps-md-5 col-12 col-md-6 my-5 m-md-0">
+        <img src="images/faq.png" class="img-fluid" alt="">
+      </div>
+    </div>
+
+  </section> <!-- f & q section ends -->
+
+  <!-- Contact With Us section starts -->
+  <section class="container-xl text-center mt-6">
+    <h1 class="fw-bolder">Contact With Us</h1>
+    <p class="mx-auto mt-3 mb-4 mb-md-5" style="max-width: 700px;">Law is a system of rules and regulations that are put
+      in place to govern and regulate the behavior of individuals and organizations within a society.</p>
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="row row-cols-2 mx-auto mt-4 mt-md-0">
+        <div class="py-5 bg-body-tertiary" style="border-right: 1px solid #CFCFCF; border-bottom: 1px solid #CFCFCF;">
+          <img src="images/location.png">
+          <h3>Address</h3>
+          <p>A108 Adam Street,<br> New York, NY 535022</p>
+        </div>
+        <div class="py-5 bg-body-tertiary" style="border-bottom: 1px solid #CFCFCF;">
+          <img src="images/call.png">
+          <h3>Call Us</h3>
+          <p>+88 01750 00 00 00 <br> +88 01750 00 00 00</p>
+        </div>
+        <div class="py-5 bg-body-tertiary" style="border-right: 1px solid #CFCFCF;">
+          <img src="images/call.png">
+          <h3>Email Us</h3>
+          <p>info@gmail.com <br> info@gmail.com</p>
+        </div>
+        <div class="py-5 bg-body-tertiary">
+          <img src="images/call.png">
+          <h3>Working Hours</h3>
+          <p>Mon-Fri: 9AM to 5PM <br> Sunday: 9AM to 1 PM</p>
+        </div>
+      </div>
+
+      <form class="order-first order-md-2">
+        <input class="form-control p-3" type="text" placeholder="Your Name">
+        <input class="form-control p-3 mt-4" type="email" placeholder="Your Email">
+        <input class="form-control p-3 mt-4" type="text" placeholder="Subject">
+        <textarea class="form-control p-3 mt-4" placeholder="Your Message" style="height: 150px;"></textarea>
+        <input class="form-control p-3 mt-4 bg-success text-white fw-bolder" type="submit" value="Submit">
+      </form>
+
+    </div>
+  </section> <!-- Contact With Us section ends -->
+
+
+  <!-- extra section blogs starts -->
+  <section class="container-xl mt-6">
+    <h1 class="fw-bolder text-center">Blogs</h1>
+    <div>
+      <p class="text-center mx-auto p-4" style="max-width: 714px;">FindLaw's consumer blogs feature the best and latest
+        in legal news, information, tips, trends, and analysis.</p>
+    </div>
+    <div class="card-group">
+      <div class="card">
+        <img src="images/slider-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Law and Daily Life</h5>
+          <p class="card-text">Everyday life is full of challenges requiring basic legal knowledge. Our Law and Daily
+            Life blog is here to answer questions about family issues, real estate, accidents and injuries, immigration,
+            workplace law, and much more.</p>
+          <p class="card-text"><small class="text-muted">Last updated 20 days ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/slider-2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Courtside</h5>
+          <p class="card-text">Making sense of the latest legal news can be challenging. When it comes to important
+            legislation and impactful legal disputes, Courtside breaks it all down for you.</p>
+          <p class="card-text"><small class="text-muted">Last updated 15 days ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/slider-3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Legally Weird</h5>
+          <p class="card-text">Sometimes the law is, well, weird. Legally Weird is your home for strange lawsuits, dumb
+            crimes, celebs getting into trouble, legislative oddities, and anything else we find offbeat.</p>
+          <p class="card-text"><small class="text-muted">Last updated 1 day ago</small></p>
+        </div>
+      </div>
+    </div>
+  </section> <!-- extra section blogs ends -->
+ </main>
+
+
+  <!-- footer section starts -->
+  <footer class="bg-black text-white py-5 mt-6 text-center text-md-start">
+    <section class="container-xl py-5">
+      <div class="row row-cols-md-4 ">
+        <div>
+          <img src="images/logo.png" alt="">
+          <p class="pt-4 mb-0">On the wooden bridge leading from the main road to the
+            village K. stood for a long time gazing into the illusory emptiness above him. Then he
+            went on to find quarters for the night. </p>
+        </div>
+        <div>
+          <h3 class="pb-md-4  pt-4 pt-md-0">Useful Link</h3>
+          <a class="ps-md-4" href="#">Homes</a>
+          <a class="ps-md-4" href="#">About Us</a>
+          <a class="ps-md-4" href="#">Cases</a>
+          <a class="ps-md-4" href="#">Blog</a>
+          <a class="ps-md-4" href="#">Contact Us</a>
+        </div>
+        <div>
+          <h3 class="pb-md-4 pt-4 pt-md-0">Contact Now</h3>
+          <p>555 4th 5t NW, Washington <br> DC 20530, United States</p>
+
+          <a href="tel:555-555-5555">555-555-5555</a>
+          <a href="tel:555-555-5555">555-555-5555</a>
+
+          <p></p>
+
+          <a href="mailto:info@gmail.com">info@gmail.com</a>
+          <a href="mailto:info@gmail.com">info@gmail.com</a>
+        </div>
+        <div>
+          <h3 class="pb-md-4 pt-4 pt-md-0">Subscribe</h3>
+          <p>Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
+          <div class="position-relative">
+            <input class="form-control border-0 px-3 py-1" placeholder="Email Address" type="email">
+            <button class="border-0 rounded-1 position-absolute end-0 top-50 translate-middle-y p-0 me-1"><i
+                class="fa-solid fa-paper-plane text-danger bg-danger-subtle fs-3"></i></button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </footer> <!-- footer section ends -->
+
+</body>
+
+</html>
